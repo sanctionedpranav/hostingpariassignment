@@ -13,7 +13,7 @@ const DomainSearch = () => {
         />
         <button className="bg-[#1e3a8a] px-6 py-1 rounded-full">Search</button>
       </div>
-      <div className="flex justify-center space-x-4 mt-4">
+      <div className="flex justify-center space-x-2 md:space-x-4 mt-4 px-3">
         {domains.map((element) => (
           <button
             key={element}
