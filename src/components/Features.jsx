@@ -16,7 +16,7 @@ const Features = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
         {features.map((element, index) => (
           <div
             key={index}
@@ -24,10 +24,12 @@ const Features = () => {
             style={{
               boxShadow: "0px 0px 10px 0px rgba(30, 59, 138, 0.71)",
             }}
+            data-aos="fade-up"
+            data-aos-delay={index * 200} // Adds a delay for each card
           >
             <div className="text-[#fff] text-[2.2rem] bg-[#1e3a8a] p-3 rounded-lg">
               <div>{element?.icon}</div>
-            </div>{" "}
+            </div>
             <h3 className="text-[24px] font-semibold mt-2">{element.title}</h3>
             <p className="text-[1.2rem] leading-[22px] my-2">
               {element.description}

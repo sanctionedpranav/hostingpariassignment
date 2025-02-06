@@ -44,6 +44,8 @@ const PerfectPlan = () => {
       <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-8">
         {perfectPlans.map((plan, index) => (
           <div
+            data-aos="zoom-in"
+            data-aos-delay="200"
             key={index}
             className={`p-6 w-80 shadow-lg rounded-xl border ${plan.borderColor} ${plan.bgColor}`}
           >

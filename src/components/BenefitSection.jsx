@@ -7,6 +7,9 @@ const BenefitSection = () => {
   return (
     <div className="bg-[#f2f5ff] py-14 px-10 rounded-lg flex flex-col lg:flex-row items-center justify-center gap-[5rem]">
       <img
+        data-aos="fade-right"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-delay="200"
         src={BenefitImage}
         alt="Happy customer"
         className="bg-[#e8eeff] rounded-[2rem] md:mr-8"
@@ -18,14 +21,22 @@ const BenefitSection = () => {
         <span className="bg-[#d9e3ff] font-semibold rounded-full text-[1rem] px-3 py-2">
           Why Us?
         </span>
-        <h2 className="text-[2.6rem] font-semibold my-3">Benefits Of Choosing Us</h2>
+        <h2 className="text-[2.6rem] font-semibold my-3">
+          Benefits Of Choosing Us
+        </h2>
         <p className="mb-6">
           We provide top-tier hosting solutions designed to keep your website
           fast, secure, and always online. Here’s why businesses trust us
         </p>
         <ul className="space-y-2 flex flex-col gap-[0.8rem]">
           {benefits.map((benefit, index) => (
-            <li key={index} className="flex items-center space-x-4">
+            <li
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay={index * 200}
+              key={index}
+              className="flex items-center space-x-4"
+            >
               <span className="text-[#fff] bg-[#577adf] p-2 rounded-md">
                 <FaCheck />
               </span>

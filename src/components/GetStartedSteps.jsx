@@ -18,6 +18,8 @@ const GetStartedSteps = () => {
       <div className="mt-20 flex flex-col md:flex-row items-center justify-center gap-8">
         <div className="w-full max-w-[700px]">
           <img
+            data-aos="zoom-in"
+            data-aos-delay="200"
             className="w-full"
             src={StepsImage}
             alt="Website Setup Illustration"
@@ -26,6 +28,8 @@ const GetStartedSteps = () => {
         <div className="flex flex-col items-start gap-6">
           {steps.map((step, index) => (
             <div
+              data-aos="fade-up"
+              data-aos-delay={index * 200}
               key={index}
               className="w-full md:w-[550px] text-left flex items-center gap-4"
             >

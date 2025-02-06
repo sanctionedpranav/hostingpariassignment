@@ -22,6 +22,8 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6">
           {contact.map((element, index) => (
             <div
+              data-aos="flip-left"
+              data-aos-delay={index * 200}
               key={index}
               className="max-w-[500px] py-10 px-16 rounded-[1.4rem] shadow-md flex flex-col justify-center items-center text-center bg-[#fff]"
               style={{
@@ -31,9 +33,7 @@ const Contact = () => {
               <div className="text-[#fff] text-[2.2rem] bg-[#1e3a8a] p-3 rounded-[1rem]">
                 <div>{element?.icon}</div>
               </div>{" "}
-              <h3 className="text-[24px] font-bold mt-2">
-                {element.title}
-              </h3>
+              <h3 className="text-[24px] font-bold mt-2">{element.title}</h3>
               <p className="text-[1.2rem] leading-[22px] my-2">
                 {element.description}
               </p>

@@ -155,3 +155,10 @@ export const testimonials = [
     review: "Our website uptime has been flawless since we joined. Fantastic hosting service!",
   }
 ];
+
+export const dropdown = [
+  { name: "Web Hosting", link: "#" },
+  { name: "Cloud Hosting", link: "#" },
+  { name: "VPN Hosting", link: "#" },
+  { name: "Business Email", link: "#" },
+]

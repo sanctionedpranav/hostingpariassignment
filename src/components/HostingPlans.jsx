@@ -14,7 +14,10 @@ const HostingPlans = () => {
       </p>
 
       <div className="flex flex-col xl:flex-row gap-[2rem] mt-6 lg:pl-10">
-        <div className="text-center lg:text-left md:max-w-[500px] mx-auto">
+        <div
+          data-aos="fade-up"
+          className="text-center lg:text-left md:max-w-[500px] mx-auto"
+        >
           <h2 className="text-[1.6rem] font-semibold my-3">
             A Team of Experts at Your Service
           </h2>
@@ -32,16 +35,18 @@ const HostingPlans = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
           {plans.map((plan, index) => (
             <div
+              data-aos="zoom-in"
+              data-aos-delay={index * 200}
               key={index}
               className="bg-[#e4ebff] p-5 rounded-lg shadow-md flex flex-col items-center text-center"
             >
               <div className="text-[#fff] text-[2.2rem] bg-[#1e3a8a] p-3 rounded-lg">
                 <GoZap />
               </div>{" "}
-              <h3 className="text-xl font-semibold mt-2">
-                {plan.title}
-              </h3>
-              <p className="text-[1.2rem] leading-[22px] my-2">{plan.description}</p>
+              <h3 className="text-xl font-semibold mt-2">{plan.title}</h3>
+              <p className="text-[1.2rem] leading-[22px] my-2">
+                {plan.description}
+              </p>
               <p className="text-2xl font-bold text-[#1e3a8a] mt-2">
                 {plan.price}
               </p>

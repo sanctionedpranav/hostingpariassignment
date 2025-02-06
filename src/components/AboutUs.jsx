@@ -7,7 +7,8 @@ const AboutUs = () => {
     <div className="bg-[#eff3ff] p-4 md:p-8">
       <div className="bg-[#1e3a8a] py-14 px-10 md:px-16 rounded-[4rem]">
         <div className="flex flex-col 2xl:flex-row items-center justify-center gap-[5rem]">
-          <div className="max-w-[40rem] text-[#fff]">
+          <div data-aos="fade-right" data-aos-delay="200" className="max-w-[40rem] text-[#fff]">
+            
             <span className="bg-[#3052b3] border font-semibold rounded-full text-[1rem] px-5 py-3">
               About Us?
             </span>
@@ -31,13 +32,19 @@ const AboutUs = () => {
             </p>
           </div>
           <img
+            data-aos="fade-up"
+            data-aos-delay="200"
             src={AboutusImage}
             alt="Happy customer"
             className="bg-[#e8eeff] rounded-[2rem] md:mr-8 max-w-full"
           />
         </div>
 
-        <div className="flex flex-col lg:flex-row justify-center items-center mt-10">
+        <div
+          data-aos="fade-down"
+          data-aos-delay="200"
+          className="flex flex-col lg:flex-row justify-center items-center mt-10"
+        >
           {actualnumbers?.map((element, index) => {
             return (
               <div

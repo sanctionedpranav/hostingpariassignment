@@ -8,7 +8,13 @@ const HeroSection = () => {
       style={{ backgroundImage: `url(${HeroImage})` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-40 backdrop-blur-sm"></div>
-      <div className="relative z-10 max-w-[50rem] mx-auto">
+      <div
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        className="relative z-10 max-w-[50rem] mx-auto"
+      >
         <h1 className="text-[1.8rem] md:text-5xl font-bold leading-8">
           Effortless Hosting Solutions To Scale Your Website And Business
         </h1>
