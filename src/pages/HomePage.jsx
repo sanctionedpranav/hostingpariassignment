@@ -9,6 +9,7 @@ import Features from "../components/Features";
 import PerfectPlan from "../components/PerfectPlan";
 import GetStartedSteps from "../components/GetStartedSteps";
 import Contact from "../components/Contact";
+import FAQ from "../components/FAQ";
 import CTA from "../components/CTA";
 import Testimonials from "./Testimonials";
 import Footer from "../components/Footer";
@@ -26,6 +27,7 @@ const HomePage = () => {
       <PerfectPlan />
       <GetStartedSteps />
       <Contact />
+      {/* <FAQ /> */}
       <CTA />
       <Testimonials />
       <Footer />

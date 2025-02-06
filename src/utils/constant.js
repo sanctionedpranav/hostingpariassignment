@@ -162,3 +162,18 @@ export const dropdown = [
   { name: "VPN Hosting", link: "#" },
   { name: "Business Email", link: "#" },
 ]
+
+export const faqs = [
+  {
+    question: "What Makes Your Hosting Service Different?",
+    answer:
+      "We Provide High-Speed, Secure, And Scalable Hosting With 99.9% Uptime, Free SSL, And 24/7 Support.",
+  },
+  { question: "Can I Upgrade My Plan Later?", answer: "Yes, you can upgrade your plan anytime from your dashboard." },
+  { question: "Do You Offer A Money-Back Guarantee?", answer: "Yes, we offer a 30-day money-back guarantee." },
+  { question: "Do You Provide Website Migration?", answer: "Yes, we provide free website migration services." },
+  { question: "How Do I Get Started?", answer: "Simply sign up, choose a plan, and start hosting your website." },
+  { question: "Do You Offer A Money-Back Guarantee?", answer: "Yes, we offer a 30-day money-back guarantee." },
+  { question: "Do You Provide Website Migration?", answer: "Yes, we provide free website migration services." },
+];
+

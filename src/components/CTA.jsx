@@ -2,7 +2,7 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <div className="px-10">
+    <div className="px-10 py-10">
       <div
         data-aos="fade-up"
         data-aos-delay='200'
