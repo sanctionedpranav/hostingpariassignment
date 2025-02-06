@@ -2,6 +2,10 @@ import { GoZap } from "react-icons/go";
 import { TbTriangleFilled } from "react-icons/tb";
 import { LuStar } from "react-icons/lu";
 import { FaRegCircle } from "react-icons/fa6";
+import { LuPopsicle } from "react-icons/lu";
+import { IoChatbubbleOutline } from "react-icons/io5";
+import { FaRegEnvelope } from "react-icons/fa6";
+import { GrPhone } from "react-icons/gr";
 
 
 
@@ -115,4 +119,39 @@ export const steps = [
       "Once everything is set up, your website will be online, secure, and optimized for performance. Enjoy seamless hosting with 24/7 support at your fingertips.",
     icon: "🚀",
   },
+];
+
+export const contact = [
+  { icon: <LuPopsicle />, title: "Support Center", description: " Visit our help desk for step-by-step guides and FAQs." },
+  { icon: <IoChatbubbleOutline />, title: " Live Chat", description: " Get instant answers from our experts, available 24/7" },
+  { icon: <FaRegEnvelope />, title: "Email Support", description: "Drop us a message at support@hostingpari.com" },
+  { icon: <GrPhone />, title: "Phone Support", description: "Speak with our team directly at +123-456-7890." },
+];
+
+export const testimonials = [
+  {
+    name: "Alex M.",
+    role: "E-commerce Store Owner",
+    review: "Switching to Hosting Pari was the best decision for our website. The speed and security are unmatched.",
+  },
+  {
+    name: "David P.",
+    role: "Agency Founder",
+    review: "Excellent support! They helped me migrate my site hassle-free. Highly recommend!",
+  },
+  {
+    name: "David P.",
+    role: "Agency Founder",
+    review: "Excellent support! They helped me migrate my site hassle-free. Highly recommend!",
+  },
+  {
+    name: "David P.",
+    role: "Agency Founder",
+    review: "Excellent support! They helped me migrate my site hassle-free. Highly recommend!",
+  },
+  {
+    name: "Michael T.",
+    role: "Blogger",
+    review: "Our website uptime has been flawless since we joined. Fantastic hosting service!",
+  }
 ];

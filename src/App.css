@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.slidingbar::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+.slidingbar::-webkit-scrollbar-track {
+  background: #afbde7; /* color of the tracking area */
+}
+
+.slidingbar::-webkit-scrollbar-thumb {
+  background-color: #577adf; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #afbde7; /* creates padding around scroll thumb */
+}

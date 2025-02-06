@@ -8,6 +8,10 @@ import AboutUs from "../components/AboutUs";
 import Features from "../components/Features";
 import PerfectPlan from "../components/PerfectPlan";
 import GetStartedSteps from "../components/GetStartedSteps";
+import Contact from "../components/Contact";
+import CTA from "../components/CTA";
+import Testimonials from "./Testimonials";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
@@ -21,6 +25,10 @@ const HomePage = () => {
       <Features />
       <PerfectPlan />
       <GetStartedSteps />
+      <Contact />
+      <CTA />
+      <Testimonials />
+      <Footer />
     </div>
   );
 };
