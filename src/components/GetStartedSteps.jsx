@@ -44,7 +44,7 @@ const GetStartedSteps = () => {
             </div>
           ))}
           <div className="mt-8">
-            <button className="px-6 py-3 bg-white text-blue-900 font-bold rounded-lg hover:bg-gray-200">
+            <button className="px-6 py-3 bg-white text-blue-900 font-bold rounded-full hover:bg-gray-200">
               Get Started →
             </button>
           </div>

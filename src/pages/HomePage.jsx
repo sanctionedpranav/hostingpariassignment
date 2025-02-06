@@ -27,7 +27,7 @@ const HomePage = () => {
       <PerfectPlan />
       <GetStartedSteps />
       <Contact />
-      {/* <FAQ /> */}
+      <FAQ />
       <CTA />
       <Testimonials />
       <Footer />
